@@ -358,17 +358,14 @@ Mind specificity
 - Uses ViewModel APIs to render the UI
 - View-specific logic resides here 
 
-
 ---
 
 # ViewModel
 
 - Core logic of widget resides here
 - Provides necessary APIs for the view to do it's thing
-- No DOM/UI concerns
-- Data is encapsulated here as well
+- No DOM/UI concerns (think data)
 - Requires thinking, no silver-bullet
-
 
 ---
 
