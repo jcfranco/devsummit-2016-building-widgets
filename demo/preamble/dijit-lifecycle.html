@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dijit Lifecycle</title>
+</head>
+<body>
+  <script src="//js.arcgis.com/3.16"></script>
+  <script>
+
+    var widget;
+
+    require([
+        "dijit/_WidgetBase"
+      ],
+    function(_WidgetBase) {
+
+      var Simple = _WidgetBase.createSubclass({
+
+        constructor: function() {
+          // this.inherited(arguments); not needed since this is automatically chained
+
+          console.log("  >  constructor");
+        },
+
+        postMixInProperties: function() {
+          this.inherited(arguments);
+
+          console.log("  >  postMixInProperties");
+        },
+
+        buildRendering: function() {
+          this.inherited(arguments);
+
+          console.log("  >  buildRendering");
+        },
+
+        postCreate: function() {
+          this.inherited(arguments);
+
+          console.log("  >  postCreate");
+        },
+
+        startup: function() {
+          this.inherited(arguments);
+
+          console.log("  >  startup");
+        },
+
+        destroy: function() {
+          this.inherited(arguments);
+
+          console.log("  >  destroy");
+        }
+
+      });
+
+      console.log("=== instantiating simple widget ===");
+      widget = new Simple();
+
+      console.log("=== starting up simple widget ===");
+      widget.startup();
+
+      console.log("=== destroying simple widget ===");
+      widget.destroy();
+
+    });
+
+  </script>
+
+  <span>Look in dev tools console!</span>
+
+</body>
+</html>
