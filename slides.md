@@ -327,8 +327,6 @@ Mind specificity
 * Use Sass to compile stylesheets 
 * Apply BEM
 
-[demo](./demo/3x/index.html)
-
 ---
 
 # Building WikiWidget
@@ -339,7 +337,7 @@ Mind specificity
 
 # Building WikiWidget the 3x way
 
-* Show the source!
+[demo](./demo/3x/index.html)
 
 ---
 
