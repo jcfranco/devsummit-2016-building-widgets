@@ -557,8 +557,6 @@ Mind specificity
 
 ## Additional Resources
 
-todo: create github repo under personal account. transfer account later.
-
 ArcGIS Github -> Presentations Devsummit 2016 -> Building your own widget
 
 - [Documentation - 4.0 beta](https://developers.arcgis.com/javascript/beta/)
