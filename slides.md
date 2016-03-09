@@ -414,13 +414,10 @@ Mind specificity
 # Testing
 
 - Why?
-  - Writing tests is an investment
-  - Helps build safety net to catch regressions as we change the codebase
-- How?
-  - Multiple flavors of testing frameworks
-    - [Intern](https://theintern.github.io/intern)
-    - [QUnit](https://qunitjs.com/)
-    - [Jasmine](http://jasmine.github.io/)
+  - Make sure your code works
+  - Safety net
+  - Investment
+  - Code reference
 
 ---
 
