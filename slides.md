@@ -29,8 +29,18 @@
   - Reusable
   - Interchangeable
 - How?
- - different frameworks
- - focus on dojo
+ - Different frameworks are available
+
+---
+
+# Dojo Toolkit
+
+- Foundation of ArcGIS JavaScript API
+- AMD support
+- Class-based inheritance
+- Internationalization
+
+![Dojo Toolkit!](images/dojo-toolkit.png)
 
 ---
 
@@ -70,7 +80,7 @@
 
 ---
 
-# _WidgetBase
+# `dijit/_WidgetBase`
 
 what you get
 
@@ -353,6 +363,15 @@ Mind specificity
 
 ---
 
+# Comparison
+
+| 3.x                                     |     |     |     |     | 4.x                                     |
+|:---------------------------------------:|-----|-----|-----|-----|:---------------------------------------:|
+| ![3x widget way](images/3x-widgets.png) |     |     |     |     | ![4x widget way](images/4x-widgets.png) |
+
+---
+
+
 # View
 
 - Uses ViewModel APIs to render the UI
@@ -376,12 +395,12 @@ Mind specificity
 
 ---
 
-# ViewModel integration demos
+# ViewModel + frameworks
 
-- [Angular](http://odoe.github.io/esrijs4-vm-angular2/) – https://github.com/odoe/esrijs4-vm-angular2
-- Ember – https://github.com/odoe/esrijs4-vm-ember
-- [React](http://odoe.github.io/esrijs4-vm-react/) – https://github.com/odoe/esrijs4-vm-react
-- [Elm](http://odoe.github.io/esrijs4-vm-elm/dist/) – https://github.com/odoe/esrijs4-vm-elm
+- [Angular 2](https://github.com/odoe/esrijs4-vm-angular2) – [demo](http://odoe.github.io/esrijs4-vm-angular2/)
+- [React](https://github.com/odoe/esrijs4-vm-react) – [demo](http://odoe.github.io/esrijs4-vm-react/)
+- [Elm](https://github.com/odoe/esrijs4-vm-elm) – [demo](http://odoe.github.io/esrijs4-vm-elm/dist/)
+- [Ember](https://github.com/odoe/esrijs4-vm-ember)
 
 ---
 
@@ -399,13 +418,13 @@ Mind specificity
   - Helps build safety net to catch regressions as we change the codebase
 - How?
   - Multiple flavors of testing frameworks
-    - Intern – https://theintern.github.io/intern
-    - QUnit – https://qunitjs.com/
-    - Jasmine – http://jasmine.github.io/
+    - [Intern](https://theintern.github.io/intern)
+    - [QUnit](https://qunitjs.com/)
+    - [Jasmine](http://jasmine.github.io/)
 
 ---
 
-# Testing (Frameworks)
+# Testing frameworks
 
 - Leverage the power of a framework!
   - Well-established
@@ -415,9 +434,9 @@ Mind specificity
   - Automation
 
 - Flavors
-  - Intern – https://theintern.github.io/intern
-  - QUnit – https://qunitjs.com/
-  - Jasmine – http://jasmine.github.io/
+  - [Intern](https://theintern.github.io/intern)
+  - [QUnit](https://qunitjs.com/)
+  - [Jasmine](http://jasmine.github.io/)
 
 ---
 
@@ -445,8 +464,8 @@ Mind specificity
 
 - Test in isolation
   - mock/stub/spy when needed 
-    - sinon.js – http://sinonjs.org/
-    
+    - [sinon.js](http://sinonjs.org/)
+
 ---
 
 # Test-writing tips
