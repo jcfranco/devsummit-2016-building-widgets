@@ -367,7 +367,7 @@ Mind specificity
 
 | 3.x                                     |     |     |     |     | 4.x                                     |
 |:---------------------------------------:|-----|-----|-----|-----|:---------------------------------------:|
-| ![3x widget way](images/3x-widgets.png) |     |     |     |     | ![4x widget way](images/4x-widgets.png) |
+| ![3x widget way](images/widgets-3x.png) |     |     |     |     | ![4x widget way](images/widgets-4x.png) |
 
 ---
 
