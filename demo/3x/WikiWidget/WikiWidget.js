@@ -25,7 +25,9 @@ define([
 
   "dojo/i18n!./nls/WikiWidget",
 
-  "dojo/text!./templates/WikiWidget.html"
+  "dojo/text!./templates/WikiWidget.html",
+
+  "require"
 ], function (
   wikiAPIHelper,
   _TemplatedMixin, _WidgetBase, a11yclick,
@@ -36,10 +38,11 @@ define([
   mathUtils,
   PictureMarkerSymbol,
   i18n,
-  templateString
+  templateString,
+  require
 ) {
 
-  var WIKI_ICON_PATH = "./WikiWidget/images/wikipedia_32.png";
+  var WIKI_ICON_PATH = require.toUrl("./images/wikipedia_32.png");
 
   var MIN_RESULTS = 1;
   var MAX_RESULTS = 10;

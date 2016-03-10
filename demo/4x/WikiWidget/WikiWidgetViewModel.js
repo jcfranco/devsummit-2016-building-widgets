@@ -14,7 +14,9 @@ define([
 
   "esri/symbols/PictureMarkerSymbol",
 
-  "dojo/i18n!./nls/WikiWidget"
+  "dojo/i18n!./nls/WikiWidget",
+
+  "require"
 ],
 function(
   wikiAPIHelper,
@@ -23,9 +25,11 @@ function(
   Point, mathUtils, Graphic,
   PopupTemplate,
   PictureMarkerSymbol,
-  i18n) {
+  i18n,
+  require
+) {
 
-  var WIKI_ICON_PATH = "./WikiWidget/images/wikipedia_32.png";
+  var WIKI_ICON_PATH = require.toUrl("./images/wikipedia_32.png");
 
   var MIN_RESULTS = 1;
   var MAX_RESULTS = 10;
