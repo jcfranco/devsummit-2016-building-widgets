@@ -130,8 +130,6 @@ function(
 
     results: null,
 
-    // TODO: selectedResult?
-
     //----------------------------------
     //  state
     //----------------------------------
@@ -139,7 +137,6 @@ function(
     state: STATES.disabled,
 
     _stateGetter: function() {
-      // TODO: add loading state
       return this.get("view.ready") ? STATES.ready : STATES.disabled;
     },
 
@@ -195,10 +192,7 @@ function(
         })
         .then(function(results) {
           this._addResultGraphics(results);
-          // TODO: extract
-          // TODO: set to empty on error?
           this._set("results", results);
-
           return results;
         }.bind(this));
     },
