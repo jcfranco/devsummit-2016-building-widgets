@@ -120,6 +120,12 @@ function(
 
 ---
 
+# Code Organization
+
+Keep code modular and organized
+
+---
+
 # Splitting it up (HTML)
 
 - Extract HTML to separate file
@@ -173,6 +179,8 @@ function (
 # Best practices – Accessibility (a11y)
 
 - Enable your application to be used by everyone
+- Use semantic markup
+- ARIA roles
 - Consider other input devices besides the mouse
   - Keyboard
   - Touch
