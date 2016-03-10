@@ -42,29 +42,18 @@
     var map;
 
     require([
-      "esri/geometry/Extent",
       "esri/map",
-      "esri/SpatialReference",
       "widgets/WikiWidget",
       "dojo/domReady!"
     ], function (
-      Extent,
-      Map, SpatialReference,
+      Map,
       WikiWidget
     ) {
 
       map = new Map("map", {
         basemap: "dark-gray",
         zoom: 14,
-        extent: new Extent({
-          xmin: -12971917.86844626,
-          ymin: 4003206.989390281,
-          xmax: -12968478.202173337,
-          ymax: 4006188.0334934816,
-          spatialReference: new SpatialReference({
-            wkid: 102100
-          })
-        })
+        center: [-116.51327133175782, 33.82029520464912]
       });
 
       var wikiWidget = new WikiWidget({
