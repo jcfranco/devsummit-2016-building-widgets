@@ -130,10 +130,6 @@ define([
       );
     },
 
-    destroy: function () {
-      this.inherited(arguments);
-    },
-
     //--------------------------------------------------------------------------
     //
     //  Variables
