@@ -576,8 +576,7 @@ Mind specificity
 
 ## Additional Resources
 
-ArcGIS Github -> Presentations Devsummit 2016 -> Building your own widget
-
+- Github -> jcfranco -> [devsummit 2016 building widgets](//jcfranco.github.io/devsummit-2016-building-widgets)
 - [Documentation - 4.0 beta](https://developers.arcgis.com/javascript/beta/)
 
 ---
