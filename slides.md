@@ -392,14 +392,12 @@ Mind specificity
 - Core logic of widget resides here
 - Provides necessary APIs for the view to do it's thing
 - No DOM/UI concerns (think data)
-- Requires thinking, no silver-bullet
 
 ---
 
-# Example: BasemapToggle
+# Widget SDK
 
-- [BasemapToggle.js (view)](https://developers.arcgis.com/javascript/beta/api-reference/js/source-code/widgets/BasemapToggle.js)
-- [BasemapToggleViewModel](https://developers.arcgis.com/javascript/beta/api-reference/esri-widgets-BasemapToggle-BasemapToggleViewModel.html)
+[Example: BasemapToggle](https://developers.arcgis.com/javascript/beta/api-reference/esri-widgets-BasemapToggle.html)
 
 ---
 
